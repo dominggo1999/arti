@@ -1,0 +1,19 @@
+{
+  "name": "arti",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "^0.2.0"
+  },
+  "dependencies": {
+    "ansi-styles": "^6.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "html-to-text": "^9.0.0"
+  },
+  "bin": {
+    "arti": "./index.ts"
+  }
+}
